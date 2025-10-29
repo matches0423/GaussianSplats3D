@@ -19,6 +19,7 @@ import { RenderMode } from './RenderMode.js';
 import { LogLevel } from './LogLevel.js';
 import { SceneRevealMode } from './SceneRevealMode.js';
 import { SplatRenderMode } from './SplatRenderMode.js';
+import {UncompressedSplatArray} from './loaders/UncompressedSplatArray.js'
 
 export {
     PlyParser,
@@ -36,6 +37,7 @@ export {
     DropInViewer,
     OrbitControls,
     AbortablePromise,
+    UncompressedSplatArray,
     SceneFormat,
     WebXRMode,
     RenderMode,
